@@ -65,7 +65,7 @@ simulator = Aer.get_backend('qasm_simulator')
 circuit = QuantumCircuit(3, 3)
 
 circuit.barrier(0,1,2)
-circuit.id(0)
+circuit.id(0)   
 circuit.id(1)
 circuit.id(2)
 circuit.barrier(0,1,2)
